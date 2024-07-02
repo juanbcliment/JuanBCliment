@@ -101,14 +101,17 @@ body{
 .presentation{
     text-align: center;
 }
+.experience{
+   align-items: center;
+}
 /* footer */
 
 .socialMedia{
-    display: block;
-    margin-top: 10px;
+    padding: 0px;
     
 }
 .socialMedia a{
+    padding-top: 100px;
     margin: 0px 10px;
     width: 30px;
    color: black;
