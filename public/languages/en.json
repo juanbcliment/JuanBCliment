@@ -1,0 +1,39 @@
+{
+    "profile": {
+       "rol":"PHP JavaScript SQL" ,
+        "description": "I am passionate about learning new technologies and expanding my web development skills.  I am currently studying computer engineering and I am specializing in back-end with PHP, Node.js, SQL, phpMyAdmin and Laravel, but I also have knowledge of HTML, CSS, Boostrap, MVC and repository management with Github. I am looking for a company where I can contribute and continue developing professionally, both in hybrid and remote modes."
+    },
+    "experience": {
+        "first-job-title": "primer trabajo",
+        "first-job-company": "primer trabajo",
+        "first-job-dates": "fechas",
+        "fisrt-job-description": " descripcion del trabajo",
+
+        "second-job-title": "primer trabajo",
+        "second-job-company": "primer trabajo",
+        "second-job-dates": "fechas",
+        "second-job-description": " descripcion del trabajo",
+
+        "third-job-title": "primer trabajo",
+        "third-job-company": "primer trabajo",
+        "third-job-dates": "fechas",
+        "third-job-description": " descripcion del trabajo"
+        
+    },
+    "academic": {
+        "first-eduction-title": "primer trabajo",
+        "first-eduction-institute": "primer trabajo",
+        "first-eduction-dates": "fechas",
+        "fisrt-eduction-description": " descripcion del trabajo",
+         
+        "second-eduction-title": "primer trabajo",
+        "second-eduction-institute": "primer trabajo",
+        "second-eduction-dates": "fechas",
+        "second-eduction-description": " descripcion del trabajo",
+        
+        "third-eduction-title": "primer trabajo",
+        "third-eduction-institute": "primer trabajo",
+        "third-eduction-dates": "fechas",
+        "third-eduction-description": " descripcion del trabajo"
+    } 
+}

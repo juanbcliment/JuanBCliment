@@ -1,5 +1,9 @@
-const swith = document.querySelector(".switch");
 
-swith.addEventListener("click", e => {
-    swith.classList.toggle("active");
+
+const dark_mode = document.querySelector(".switch_dark");
+
+dark_mode.addEventListener("click", func_dark => {
+    dark_mode.classList.toggle("active_dark");
+    document.body.classList.toggle("active_dark")
 } )
+
