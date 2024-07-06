@@ -5,4 +5,3 @@
     <script src="https://kit.fontawesome.com/4d4e7abfc3.js" crossorigin="anonymous"></script>
     <title>Juan B Climent</title>
 </head>
-

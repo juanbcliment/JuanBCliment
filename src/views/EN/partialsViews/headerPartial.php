@@ -42,9 +42,9 @@
                     <a href="#" class="menu__link"><i class="fa-solid fa-globe"></i></a>
 
                     <ul class="menu__nesting menu_option_language">
-                        <li id="flags" class="switch_language">
-                            <img src="../../../public/img/gb.svg" data-language="en" class="border" alt=""> 
-                            <img src="../../../public/img/ar.svg" data-language="es" class="border" alt="">
+                        <li class="switch_language">
+                            <img src="../../../public/img/gb.svg" class="border" alt=""> 
+                            <img src="../../../public/img/ar.svg" class="border" alt="">
                         </li>
 
                     </ul>

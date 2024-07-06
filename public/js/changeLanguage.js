@@ -1,10 +1,32 @@
 const language = document.querySelector(".switch_language");
-let cont = 0;
+
 language.addEventListener("click", func_languag => {
-     let f = language.classList.toggle("active");
-    if (f) {
-      console.log(f)
-    }
+  let activeLanguage_bool = language.classList.toggle("active");
+
+  const textsToChange = document.querySelectorAll("[data-section]");
+
+   const changeLanguage = async lang => {
     
-} )
+      const requestJson = await fetch(`../../../public/languages/${lang}.json`);
+      const texts = await requestJson.json();
+
+      for (const textToChange of textsToChange){
+        const section = textToChange.dataset.section;
+        const value = textToChange.dataset.value;
+        textToChange.innerHTML = texts[section][value]
+      }
+     
+  }
+  
+  if (activeLanguage_bool) {
+    let en = "en"
+    changeLanguage(en)
+      }else{
+        let es = 'es'
+        changeLanguage(es)
+      }
+      
+  
+})
+
 

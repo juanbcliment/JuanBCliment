@@ -5,11 +5,11 @@
 
 <body>
     <!-- header -->
-    <?php include("./partialsViews/headerPartial.php"); ?>
+    <?php include("./partialsViews/headerPartial.php"); ?> 
     <main>
         <div class="presentation">
-            <h2>PHP JavaScript SQL</h2>
-            <p>I am passionate about learning new technologies and expanding my web development skills.</p>
+            <h2 data-section="profile" data-value="rol">PHP JavaScript SQL</h2>
+            <p data-section="profile" data-value="description"></p>
             <p> I am currently studying computer engineering and I am specializing in back-end with PHP, Node.js, SQL, phpMyAdmin and Laravel,</p>
             <p>but I also have knowledge of HTML, CSS, Boostrap, MVC and repository management with Github.</p>
             <p>I am looking for a company where I can contribute and continue developing professionally, both in hybrid and remote modes.</p>
@@ -17,11 +17,11 @@
         <div class="experience">
             <div class="job">
                 <h2>Experience</h2>
-                <div class="experience_ind">
-                    <h3>Copropietario </h3>
-                    <h4>Kizuna Makers Carpintería artesanal</h4>
-                    <p>Abril 2019 -Noviembre 2022</p>
-                    <p>Planificar el proyectos</p>
+                <div class="experience_ind" >
+                    <h3 data-section="experience" data-value="first-job-title">Copropietario </h3>
+                    <h4 data-section="experience" data-value="first-job-company">Kizuna Makers Carpintería artesanal</h4>
+                    <p data-section="experience" data-value="first-job-dates">Abril 2019 -Noviembre 2022</p>
+                    <p data-section="experience" data-value="first-job-description">Planificar el proyectos</p>
                     <p>Coordinar el proyecto</p>
                     <p>Compra de insumos</p>
                     <p>Creación de croquis</p>
