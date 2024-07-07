@@ -1,40 +1,39 @@
 {
     "profile": {
-        "rol":"PHP JavaScript SQL" ,
+        "rol": "PHP JavaScript SQL",
         "description": "Me apasiona aprender nuevas tecnologías y ampliar mis habilidades de desarrollo web. Actualmente estoy cursando la carrera de ingeniería informática y me estoy especializando en back-end con PHP, Node.js, SQL, phpMyAdmin y Laravel, pero tambien cuento con conocimientos en HTML, CSS, Boostrap, MVC y el manejo de repositorio con Github. Estoy en la búsqueda de una empresa donde me permita, aportar y seguir desarrollándome profesionalmente, tanto en modalidad híbrida como remota."
-      
     },
     "experience": {
-        "first-job-title": "soporte",
+        "first-job-title": "Customer Service Analyst",
         "first-job-company": "Thinkion",
         "first-job-dates": "Diciembre 2023",
-        "fisrt-job-description": "json sql phpMyAdmin",
-     
+        "first-job-description": "JSON, SQL, phpMyAdmin",
         "second-job-title": "Técnico en Control de calidad",
         "second-job-company": "Novatech S.A",
         "second-job-dates": "Agosto 2016 - Octubre 2016",
         "second-job-description": "Controlar instalación del sistema operativo, Comprobación de circuitos electrónicos, Optimizar posibles fallas en fabricación",
-      
         "third-job-title": "Pasantía",
         "third-job-company": "Gulf Oil Argentina",
         "third-job-dates": "Junio 2014 - Noviembre 2014",
         "third-job-description": "Mantenimiento preventivo, Mantenimiento correctivo,  Optimizar procesos productivos"
-        
     },
     "academic": {
-        "first-eduction-title": "primer trabajo",
-        "first-eduction-institute": "primer trabajo",
-        "first-eduction-dates": "fechas",
-        "fisrt-eduction-description": " descripcion del trabajo",
-         
-        "second-eduction-title": "primer trabajo",
-        "second-eduction-institute": "primer trabajo",
-        "second-eduction-dates": "fechas",
-        "second-eduction-description": " descripcion del trabajo",
-        
-        "third-eduction-title": "primer trabajo",
-        "third-eduction-institute": "primer trabajo",
-        "third-eduction-dates": "fechas",
-        "third-eduction-description": " descripcion del trabajo"
-    } 
+        "academic-title": "Formación académica",
+        "first-eduction-title": "Ingeniería informática",
+        "first-eduction-institute": "Universidad de Palermo",
+        "first-eduction-dates": "Agosto 2023 - Actualidad",
+        "first-eduction-description": "Cursando actualmente el primer año de la carrera",
+        "second-eduction-title": "PHP Developer",
+        "second-eduction-institute": "Argentina Programa 4.0",
+        "second-eduction-dates": "Mayo 2023 - Noviembre 2023 Graduado",
+        "second-eduction-description": "Manejo de PHP, Html, CSS, Laravel, SQl y Boostrap, creación de una pagina web, Creación de una base de datos con phpMyAdmin",
+        "third-eduction-title": "Desarrollo Web Full Stack",
+        "third-eduction-institute": "Digital House",
+        "third-eduction-dates": "Junio 2022 - Diciembre 2022 Graduado",
+        "third-eduction-description": "Creación de una página web de cero con Node.js, metodología MVC, phpMyAdmin, HTML, CSS y SQL,manejo de Github y control de versiones",
+        "fourth-eduction-title": "Secundaria",
+        "fourth-eduction-institute": "Escuela Técnica Alemana Moreno",
+        "fourth-eduction-dates": "Finalizada en Diciembre de 2014",
+        "fourth-eduction-description": "Graduado con título de Técnico Electromecánico"
+    }
 }

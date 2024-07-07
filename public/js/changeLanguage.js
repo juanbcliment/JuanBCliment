@@ -1,5 +1,5 @@
-const language = document.querySelector(".switch_language");
 
+const language = document.querySelector(".switch_language");
 language.addEventListener("click", func_languag => {
   let activeLanguage_bool = language.classList.toggle("active");
 
@@ -7,7 +7,7 @@ language.addEventListener("click", func_languag => {
 
    const changeLanguage = async lang => {
     
-      const requestJson = await fetch(`../../../public/languages/${lang}.json`);
+      const requestJson = await fetch(`../../public/languages/${lang}.json`);
       const texts = await requestJson.json();
 
       for (const textToChange of textsToChange){
@@ -19,14 +19,11 @@ language.addEventListener("click", func_languag => {
   }
   
   if (activeLanguage_bool) {
-    let en = "en"
-    changeLanguage(en)
+    changeLanguage("en")
       }else{
-        let es = 'es'
-        changeLanguage(es)
+        changeLanguage('es')
       }
+      
       
   
 })
-
-
