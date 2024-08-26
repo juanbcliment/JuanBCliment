@@ -1,11 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<?php include("./partialsViews/headPartial.php"); ?>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../../public/css/styles.css">
+    <script src="https://kit.fontawesome.com/4d4e7abfc3.js" crossorigin="anonymous"></script>
+    <title>Juan B Climent</title>
+</head>
+
 
 <body>
-    <!-- header -->
-    <?php include("./partialsViews/headerPartial.php"); ?> 
+    <header>
+        <nav class="menu">
+            <section class="menu__container">
+
+
+                <ul class="menu__links">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">About Me </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Skills </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Experience</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Portfolio</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">Contact</a>
+                    </li>
+
+                    <li class="menu__item  menu__item--show">
+                        <a href="#" class="menu__link">Config <img src="../../public/img/arrow.svg" class="menu__arrow"></a>
+
+                        <ul class="menu__nesting menu_option_dark_mode">
+
+                            <li class="switch_dark">
+                                <i class="fa-solid fa-moon border"></i>
+                                <i class="fa-sharp fa-solid fa-sun border "></i>
+
+                            </li>
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">Tablet</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">Cel </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__item  menu__item--show">
+                        <a href="#" class="menu__link"><i class="fa-solid fa-globe"></i></a>
+
+                        <ul class="menu__nesting menu_option_language">
+                            <li class="switch_language">
+                                <img src="../../public/img/gb.svg" class="border" alt="">
+                                <img src="../../public/img/ar.svg" class="border" alt="">
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="menu__hamburguer">
+                    <img src="../../public/img/menu.svg" class="menu__img">
+                </div>
+            </section>
+
+
+        </nav>
+    </header>
     <main>
         <div class="presentation">
             <h2 data-section="profile" data-value="rol">PHP JavaScript SQL</h2>
@@ -14,7 +80,7 @@
         <div class="experience">
             <div class="job">
                 <h2>Experience</h2>
-                <div class="experience_ind" >
+                <div class="experience_ind">
                     <h3 data-section="experience" data-value="first-job-title">Soporte</h3>
                     <h4 data-section="experience" data-value="first-job-company">Thinkion</h4>
                     <p data-section="experience" data-value="first-job-dates">Diciembre 2023</p>
@@ -66,10 +132,20 @@
         <br><br><br><br>
     </main>
 
-    <!-- footer -->
-    <?php include("./partialsViews/footerPartials.php"); ?>
 
+    <footer>
+        <div class="socialMedia">
+            <a href="https://www.linkedin.com/in/juanbcliment/"><i class="fab fa-linkedin fa-2xl"></i></a>
+            <a href="https://github.com/juanbcliment"><i class="fa-brands fa-square-github fa-2xl"></i></a>
+            <a href="https://wa.me/541167474160"><i class="fa-brands fa-square-whatsapp fa-2xl"></i>+541167474160</a>
+            <a href="mailto:juanbclimentru@gmail.com"><i class="fa-solid fa-envelope fa-2xl"></i>juanbclimentru@gmail.com</a>
+            <i class="fa-solid fa-chevron-right" style="color: #fafafa;"></i>
+        </div>
 
+    </footer>
+    <script src="../../public/js/changeLanguage.js"></script>
+    <script src="../../public/js/darkMode.js"></script>
+    <script src="../../public/js/dropdown.js"></script>
 </body>
 
 </html>
