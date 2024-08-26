@@ -4,6 +4,7 @@
         "description": "I am passionate about learning new technologies and expanding my web development skills.  I am currently studying computer engineering and I am specializing in back-end with PHP, Node.js, SQL, phpMyAdmin and Laravel, but I also have knowledge of HTML, CSS, Boostrap, MVC and repository management with Github. I am looking for a company where I can contribute and continue developing professionally, both in hybrid and remote modes."
     },
     "experience": {
+        "experience-title": "Experience",
         "first-job-title": "Customer Service Analyst",
         "first-job-company": "Thinkion",
         "first-job-dates": "December 2023",
