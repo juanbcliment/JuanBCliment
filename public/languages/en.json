@@ -1,4 +1,12 @@
 {
+    "navBar":{
+        "aboutMe": "About Me",
+        "skills": "Skills",
+        "experience": "Experience",
+        "portfolio": "Portfolio",
+        "contact": "Contact",
+        "config": "Config"
+    },
     "profile": {
         "rol": "PHP JavaScript SQL",
         "description": "I am passionate about learning new technologies and expanding my web development skills.  I am currently studying computer engineering and I am specializing in back-end with PHP, Node.js, SQL, phpMyAdmin and Laravel, but I also have knowledge of HTML, CSS, Boostrap, MVC and repository management with Github. I am looking for a company where I can contribute and continue developing professionally, both in hybrid and remote modes."
