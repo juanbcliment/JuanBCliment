@@ -12,13 +12,14 @@ header{
 }
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: f6f6f6;
+    background-color: #f6f6f6;
 }
 
 .menu {
     background-color: #1A202C;
     color: #fff;
     height: 70px;
+ 
 }
 
 .menu__container {
@@ -29,6 +30,7 @@ body {
     max-width: 1200px;
     height: 100%;
     margin: 0 auto;
+    justify-content: center;
 }
 
 .menu__links {
@@ -53,16 +55,34 @@ body {
 .menu__link {
     color: #fff;
     text-decoration: none;
-    padding: 0 30px;
+    text-align: center;
+   
     display: flex;
     height: 100%;
     align-items: center;
+    position: relative;
+    width: 150px;
+    justify-content: center;
 }
 
-.menu__link:hover {
+/* .menu__link:hover {
     background-color: #5e7094;
 }
-
+ */
+ .menu__link::after {
+    content: ''; /* Crea un pseudo-elemento vacío */
+    position: absolute; /* Posiciona absolutamente dentro del elemento padre */
+    left: 50%; /* Empieza desde el centro */
+    bottom: 0; /* Posición inferior */
+    width: 0; /* Ancho inicial es 0 para que no se vea */
+    height: 2px; /* Altura del subrayado */
+    background-color: #c73030; /* Color del subrayado */
+    transition: all 0.3s ease; /* Transición suave para el efecto */
+}
+.menu__link:hover::after {
+    left: 0; /* Extiende hacia la izquierda */
+    width: 100%; /* Se extiende a todo el ancho del enlace */
+}
 
 .menu__arrow {
     transform: var(--transform);
@@ -76,11 +96,15 @@ body {
     transition: clip-path .3s;
     clip-path: var(--clip);
     position: absolute;
-    right: 0;
+   right: 20px;
     bottom: 0;
     width: max-content;
     transform: translateY(100%);
-    background-color: #000;
+    background-color: #1A202C;
+    width: 100px;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 0 0 10px 10px;
 }
 
 .menu__link--inside {
@@ -111,11 +135,11 @@ body {
     height: 30px;
     padding: 0 5px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     position: relative;
     border-radius: 100px;
     border: #333 solid 2px;
+    justify-content: center;
+    text-align: center
 
 }
 
@@ -141,16 +165,17 @@ body {
 /* dark mode */
 .switch_dark {
     width: 60px;
-    height: 30px;
+    height: 100%;
     padding: 0 5px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     position: relative;
     border-radius: 100px;
     border: #333 solid 2px;
+    align-items: center;
 
 }
+
 
 .menu_option_dark_mode li:first-child::before {
     content: "";
@@ -175,6 +200,9 @@ body {
     width: 25px;
     height: 25px;
     color: white;
+    align-items: center;
+    margin-top: 5px;
+    padding: 0px 5px;
 }
 
 body.active_dark {
