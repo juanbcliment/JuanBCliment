@@ -7,24 +7,39 @@
         "contact": "Contact",
         "config": "Config"
     },
+    "presentatio": {
+        "introduction": "Web programmer with a <span class='highlight'>passion for technology and coding</span>." 
+      },
     "profile": {
         "rol": "PHP JavaScript SQL",
         "description": "I am passionate about learning new technologies and expanding my web development skills.  I am currently studying computer engineering and I am specializing in back-end with PHP, Node.js, SQL, phpMyAdmin and Laravel, but I also have knowledge of HTML, CSS, Boostrap, MVC and repository management with Github. I am looking for a company where I can contribute and continue developing professionally, both in hybrid and remote modes."
     },
+    "cv": {
+        "description-cv": "Download CV",
+        "cv-href": "/public/img/CV-JuanBCliment-Desarroll"
+     
+      },
     "experience": {
         "experience-title": "Experience",
         "first-job-title": "Customer Service Analyst",
         "first-job-company": "Thinkion",
         "first-job-dates": "December 2023",
-        "first-job-description": "JSON SQL, phpMyAdmin",
+        "first-job-description-1": "Manejo de SQL y phpMyAdmin",
+        "first-job-description-2": "Google Cloud Services",
+        "first-job-description-3": "Identificar y reparar errores del servidor",
+        "first-job-description-4": "Postman",
         "second-job-title": "Quality Control Technician",
         "second-job-company": "Novatech S.A",
         "second-job-dates": "August 2016 - October 2016",
-        "second-job-description": "Control installation of the operating system, Check electronic circuits, Optimize possible manufacturing failures",
+        "second-job-description-1": "Controlar instalación del sistema operativo",
+        "second-job-description-2": "Comprobación de circuitos electrónicos",
+        "second-job-description-3": "Optimizar posibles fallas en fabricación",
         "third-job-title": "Internship",
         "third-job-company": "Gulf Oil Argentina",
         "third-job-dates": "June 2014 - November 2014",
-        "third-job-description": "Preventive maintenance, Corrective maintenance, Optimize productive processes"
+        "third-job-description-1": "Mantenimiento preventivo",
+        "third-job-description-2": "Mantenimiento correctivo",
+        "third-job-description-3": "Optimizar procesos productivos"
     },
     "academic": {
         "academic-title": "Academic",
@@ -44,5 +59,15 @@
         "fourth-eduction-institute": "Escuela Técnica Alemana Moreno",
         "fourth-eduction-dates": "Completed in December 2014",
         "fourth-eduction-description": "Graduated with the title of Electromechanical Technician"
+    },
+    "portfolio":{
+        "site": "Go to site",
+        "code": "See the code",
+       "first-title": "Ecommerce Weis",
+       "first-description": "Desarrollado con Digital House, es un Ecommerce de una empresa que vende comida ahumada en bariloche, fue un trabajo grupal de 4 personas, se utilizo Node.js, css, HTMl, phpMyAdmin",
+       "second-title": "Ecommerce Weis",
+       "second-description": "Desarrollado con Digital House, es un Ecommerce de una empresa que vende comida ahumada en bariloche, fue un trabajo grupal de 4 personas, se utilizo Node.js, css, HTMl, phpMyAdmin",
+       "third-title": "Ecommerce Weis",
+       "third-description": "Desarrollado con Digital House, es un Ecommerce de una empresa que vende comida ahumada en bariloche, fue un trabajo grupal de 4 personas, se utilizo Node.js, css, HTMl, phpMyAdmin"
     }
 }
