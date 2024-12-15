@@ -16,7 +16,7 @@
          "cv-href": "/public/img/CV-JuanBCliment-DesarrolladorWeb-2024.pdf"
       },
     "profile": {
-        "rol": "PHP JavaScript SQL",
+        "title": "Sobre mi",
         "description": "Me apasiona aprender nuevas tecnologías y ampliar mis habilidades de desarrollo web. Actualmente estoy cursando la carrera de ingeniería informática y me estoy especializando en back-end con PHP, Node.js, SQL, phpMyAdmin y Laravel, pero tambien cuento con conocimientos en HTML, CSS, Boostrap, MVC y el manejo de repositorio con Github. Estoy en la búsqueda de una empresa donde me permita, aportar y seguir desarrollándome profesionalmente, tanto en modalidad híbrida como remota."
     },
     "experience": {
@@ -61,13 +61,17 @@
         "fourth-eduction-description": "Graduado con título de Técnico Electromecánico"
     },
     "portfolio":{
-        "site": "Ir al sitio",
-        "code": "Ver el codigo",
-       "first-title": "Ecommerce Weis",
+        "site": "<span class='highlight'>Ir al sitio</span>",
+        "code": "<span class='highlight'>Ver el codigo</span>",
+       "first-title": "<span class='highlight'>Ecommerce Weis</span>",
        "first-description": "Desarrollado con Digital House, es un Ecommerce de una empresa que vende comida ahumada en bariloche, fue un trabajo grupal de 4 personas, se utilizo Node.js, css, HTMl, phpMyAdmin",
-       "second-title": "Ecommerce Weis",
+       "second-title": "<span class='highlight'>Ecommerce Weis</span>",
        "second-description": "Desarrollado con Digital House, es un Ecommerce de una empresa que vende comida ahumada en bariloche, fue un trabajo grupal de 4 personas, se utilizo Node.js, css, HTMl, phpMyAdmin",
-       "third-title": "Ecommerce Weis",
+       "third-title": "<span class='highlight'>Ecommerce Weis</span>",
        "third-description": "Desarrollado con Digital House, es un Ecommerce de una empresa que vende comida ahumada en bariloche, fue un trabajo grupal de 4 personas, se utilizo Node.js, css, HTMl, phpMyAdmin"
-    }
+    },
+    "contact": {
+        "title": "Contátame" 
+      }
+
 }

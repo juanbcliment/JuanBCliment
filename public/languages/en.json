@@ -11,7 +11,7 @@
         "introduction": "Web programmer with a <span class='highlight'>passion for technology and coding</span>." 
       },
     "profile": {
-        "rol": "PHP JavaScript SQL",
+        "title": "About Me",
         "description": "I am passionate about learning new technologies and expanding my web development skills.  I am currently studying computer engineering and I am specializing in back-end with PHP, Node.js, SQL, phpMyAdmin and Laravel, but I also have knowledge of HTML, CSS, Boostrap, MVC and repository management with Github. I am looking for a company where I can contribute and continue developing professionally, both in hybrid and remote modes."
     },
     "cv": {
@@ -61,13 +61,17 @@
         "fourth-eduction-description": "Graduated with the title of Electromechanical Technician"
     },
     "portfolio":{
-        "site": "Go to site",
-        "code": "See the code",
-       "first-title": "Ecommerce Weis",
+        "site": "<span class='highlight'>Go to site</span>",
+        "code": "<span class='highlight'>See the code</span>",
+       "first-title": "<span class='highlight'>Ecommerce Weis</span>",
        "first-description": "Desarrollado con Digital House, es un Ecommerce de una empresa que vende comida ahumada en bariloche, fue un trabajo grupal de 4 personas, se utilizo Node.js, css, HTMl, phpMyAdmin",
-       "second-title": "Ecommerce Weis",
+       "second-title": "<span class='highlight'>Ecommerce Weis</span>",
        "second-description": "Desarrollado con Digital House, es un Ecommerce de una empresa que vende comida ahumada en bariloche, fue un trabajo grupal de 4 personas, se utilizo Node.js, css, HTMl, phpMyAdmin",
-       "third-title": "Ecommerce Weis",
+       "third-title": "<span class='highlight'>Ecommerce Weis</span>",
        "third-description": "Desarrollado con Digital House, es un Ecommerce de una empresa que vende comida ahumada en bariloche, fue un trabajo grupal de 4 personas, se utilizo Node.js, css, HTMl, phpMyAdmin"
-    }
+    },
+    "contact": {
+        "title": "Contact Me" 
+      }
+
 }
