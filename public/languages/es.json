@@ -16,7 +16,7 @@
          "cv-href": "/public/img/CV-JuanBCliment-DesarrolladorWeb-2024.pdf"
       },
     "profile": {
-        "title": "Sobre mi",
+        "title": "Sobre mí",
         "description": "Me apasiona aprender nuevas tecnologías y ampliar mis habilidades de desarrollo web. Actualmente estoy cursando la carrera de ingeniería informática y me estoy especializando en back-end con PHP, Node.js, SQL, phpMyAdmin y Laravel, pero tambien cuento con conocimientos en HTML, CSS, Boostrap, MVC y el manejo de repositorio con Github. Estoy en la búsqueda de una empresa donde me permita, aportar y seguir desarrollándome profesionalmente, tanto en modalidad híbrida como remota."
     },
     "experience": {
@@ -63,8 +63,8 @@
     "portfolio":{
         "site": "<span class='highlight'>Ir al sitio</span>",
         "code": "<span class='highlight'>Ver el codigo</span>",
-       "first-title": "<span class='highlight'>Ecommerce Weis</span>",
-       "first-description": "Desarrollado con Digital House, es un Ecommerce de una empresa que vende comida ahumada en bariloche, fue un trabajo grupal de 4 personas, se utilizo Node.js, css, HTMl, phpMyAdmin",
+       "first-title": "<span class='highlight'>eCommerce de compra y venta</span>",
+       "first-description": "Sitio clasico de compra y venta de productos, se uso Nodje.js para el servidor y phpMyAdmin para la base de datos, se aplico la metodologia de MVC, se utilizo css, html, y se aplico el manejo de versiones con Github",
        "second-title": "<span class='highlight'>Ecommerce Weis</span>",
        "second-description": "Desarrollado con Digital House, es un Ecommerce de una empresa que vende comida ahumada en bariloche, fue un trabajo grupal de 4 personas, se utilizo Node.js, css, HTMl, phpMyAdmin",
        "third-title": "<span class='highlight'>Ecommerce Weis</span>",

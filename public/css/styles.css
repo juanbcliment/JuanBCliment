@@ -13,7 +13,7 @@
     font-family: "Roboto Mono", monospace;
 }
 
-.highlight{
+.highlight {
     color: #009E12;
 }
 
@@ -27,6 +27,7 @@ main {
     width: 80%;
     margin: 0 auto;
 }
+
 /* FOTO Y PRESENTACION */
 .title {
     margin-top: 150px;
@@ -36,7 +37,7 @@ main {
 
 
 .presentation {
-   margin-top: 20px; 
+    margin-top: 20px;
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -46,10 +47,12 @@ main {
 }
 
 
-.profile{
+.profile {
     justify-content: top;
-    margin: 0px 0px 0px 200px;
+    ;
+    text-align: center;
 }
+
 .img_profile {
     margin-top: 20px;
     width: 300px;
@@ -58,15 +61,16 @@ main {
     margin-right: 100px;
 }
 
-.introduction{
+.introduction {
     width: 30%;
     text-align: center;
     margin-top: 80px;
-    margin-left: 60px;
+
     font-size: 25px;
 }
-.boton_git{
-  
+
+.boton_git {
+
     text-decoration: none;
     border: #009E12 solid 2px;
     width: 40px;
@@ -98,60 +102,68 @@ main {
 
 /* ===========EXPERIENCIA*/
 .experience {
- width: 80%;
- display: flex;
- margin: 0 auto;
- 
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+
 }
-#job, #academic{
+
+#job,
+#academic {
     display: flex;
     width: 50%;
     margin: 0 auto;
     align-items: baseline;
-    padding-left: 8%;  
+    padding-left: 8%;
 }
+
 #job {
     display: flex;
     width: 50%;
     margin: 0 auto;
     align-items: baseline;
-    padding-left: 6%;  
+    padding-left: 6%;
 }
+
 .experience_ind {
     display: flex;
     flex-direction: column;
 }
-.experience_ind h2{
-  
+
+.experience_ind h2 {
+
     font-size: 40px;
     font-weight: 800;
     padding-left: 8px;
-  
- }
-.experience_ind h3{
-    font-size: 30px;
-   padding: 0px 5px 0px 10px;
-   color: #009E12;
-   font-weight: 500;
-   
+
 }
-.experience_ind h4{
+
+.experience_ind h3 {
     font-size: 30px;
     padding: 0px 5px 0px 10px;
     color: #009E12;
-   font-weight: 500;
- }
- .experience_ind p{
+    font-weight: 500;
+
+}
+
+.experience_ind h4 {
+    font-size: 30px;
+    padding: 0px 5px 0px 10px;
+    color: #009E12;
+    font-weight: 500;
+}
+
+.experience_ind p {
     font-size: 20px;
     padding: 0px 5px 0px 10px;
     text-wrap: balance;
     margin-top: initial;
- }
+}
 
 
 
- /* PORTFOLIO */
- .main-portfolio {
+/* PORTFOLIO */
+.main-portfolio {
     width: 80%;
 }
 
@@ -206,10 +218,10 @@ main {
     margin-top: 40px;
     text-decoration: none;
 
-   
+
     padding: 0;
     color: #000;
-} 
+}
 
 .texto-encima a p {
     margin: 0 auto;
@@ -221,6 +233,7 @@ main {
     width: 80%;
 
 }
+
 /* SOBRE MI */
 
 .about {
@@ -232,7 +245,8 @@ main {
     margin-top: 20px;
 
 }
-.about-title{
+
+.about-title {
     margin-top: 100px;
     margin-left: 15%;
     width: 70%;
@@ -240,14 +254,16 @@ main {
 }
 
 /* CXONTACT */
-.contact-conteiner{
+.contact-conteiner {
     margin-top: 100px;
     width: 70%;
     margin-left: 15%;
     margin: 100px 0px 100px 15%;
 
+
 }
-.btn-contact-mail{
+
+#email-text {
 
     border: 2px solid #009E12;
     border-radius: 10px;
@@ -256,23 +272,33 @@ main {
     width: 310px;
 
 }
-.btn-contact-linke{
-    border: 2px solid #009E12;
-    border-radius: 10px;
-    padding: 5px 10px;
-    font-size: 20px;
-    width: 370px;
 
-}
-.row{
+.row {
     display: flex;
     flex-direction: row;
+    text-align: center;
+    padding: 20px 20px 20px 0px;
+}
+.row img {
+    width: 100px;
+    height: 80px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.copy-button {
+    width: 35px;
+    height: 35px;
+    margin-right: 100px;
+    margin-left: 20px;
+    cursor: pointer;
+
 }
 
 @media (max-width: 2800px) {
-    #academic{
+    #academic {
         width: 800px;
-    
+
     }
-  
+
 }
