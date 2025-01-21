@@ -70,7 +70,8 @@ main {
 }
 
 .boton_git {
-
+    margin-top: 20px;
+ font-size: 22px;
     text-decoration: none;
     border: #009E12 solid 2px;
     width: 40px;
@@ -80,6 +81,8 @@ main {
 }
 
 .btn-cv {
+    margin-top: 20px;
+    font-size: 22px;
     display: inline-block;
     padding: 1px 4px;
     border: #009E12 solid 2px;
@@ -94,12 +97,6 @@ main {
 
 
 
-
-
-
-
-
-
 /* ===========EXPERIENCIA*/
 .experience {
     width: 80%;
@@ -107,14 +104,17 @@ main {
     margin: 0 auto;
 
 }
-
+.margin-top{
+   margin-bottom: 5px;
+    font-weight: 500;
+}
 #job,
 #academic {
     display: flex;
     width: 50%;
     margin: 0 auto;
     align-items: baseline;
-    padding-left: 8%;
+    padding-left: 12%;
 }
 
 #job {
@@ -139,18 +139,19 @@ main {
 }
 
 .experience_ind h3 {
-    font-size: 30px;
+    font-size: 28px;
     padding: 0px 5px 0px 10px;
     color: #009E12;
     font-weight: 500;
+    margin-top: 20px;
 
 }
 
 .experience_ind h4 {
-    font-size: 30px;
+    font-size: 25px;
     padding: 0px 5px 0px 10px;
     color: #009E12;
-    font-weight: 500;
+    font-weight: 430;
 }
 
 .experience_ind p {
@@ -160,7 +161,9 @@ main {
     margin-top: initial;
 }
 
-
+.formacion{
+  width: 500px;
+}
 
 /* PORTFOLIO */
 .main-portfolio {
@@ -183,25 +186,22 @@ main {
     padding: 20px 30px;
     border-radius: 20px;
     margin: 0 auto;
-    justify-content: space-evenly;
     margin-top: 10px;
 }
 
 
 
 .portfolio-container img {
-    padding: 10px;
+    padding: 0px;
     display: block;
-    width: 400px;
-    height: 200px;
+    width: 500px;
+    height: 300px;
     border-radius: 20px;
 
 }
 
 .portfolio-container a {
-
     bottom: 0;
-
     width: 100%;
     padding: 10px;
     font-size: 20px;
@@ -233,7 +233,47 @@ main {
     width: 80%;
 
 }
-
+.row {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+   
+}
+.row a {
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.row img {
+    width: 100px; 
+    height: 100px; 
+    object-fit: contain;
+}
+ .nodejs-png{
+    width: 110px !important;
+    height: 110px !important;
+}
+.phpmyadmin-png{
+    width: 120px !important;
+    height: 90px !important;
+}
+.sql-png{
+    width: 110px !important;
+    height: 110px !important;
+}
+   
+ 
+.js-png{
+    width: 96px !important;
+    height: 96px !important;
+} 
+.css-png {
+    width: 94px !important;
+    height: 94px !important;
+    margin: 0px 20px;
+} 
 /* SOBRE MI */
 
 .about {
@@ -270,22 +310,16 @@ main {
     padding: 5px 10px;
     font-size: 20px;
     width: 310px;
-
+height: 40px;
 }
 
-.row {
+.row-contact {
+   
     display: flex;
     flex-direction: row;
     text-align: center;
-    padding: 20px 20px 20px 0px;
+   
 }
-.row img {
-    width: 100px;
-    height: 80px;
-    margin-right: 20px;
-    margin-left: 20px;
-}
-
 .copy-button {
     width: 35px;
     height: 35px;
@@ -301,4 +335,47 @@ main {
 
     }
 
+}
+
+@media screen and (max-width: 1440px) {
+    .img_profile {
+        width: 250px;
+        height: 250px;
+    }
+    .introduction{
+        width: 40%;
+    }
+    .experience_ind h2 {
+        font-size: 34px;
+        width: 400px;
+    }
+    .experience_ind h3 {
+        font-size: 24px;
+    }
+    .experience_ind h4 {
+        font-size: 22px;
+    }
+    .experience_ind p {
+        font-size: 18px;
+        text-wrap: inherit;
+        width: 400px;
+    }
+    .experience_ind {
+      width: 360px;
+   
+    }
+    #academic {
+
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+ 
+}
+
+
+@media screen and (max-width: 768px) {
+ 
+ 
 }

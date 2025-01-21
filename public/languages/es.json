@@ -23,7 +23,7 @@
         "experience-title": "Experiencia",
         "first-job-title": "Customer Service Analyst",
         "first-job-company": "Thinkion",
-        "first-job-dates": "Diciembre 2023",
+        "first-job-dates": "Diciembre 2023 - Actualidad",
         "first-job-description-1": "Manejo de SQL y phpMyAdmin",
         "first-job-description-2": "Google Cloud Services",
         "first-job-description-3": "Identificar y reparar errores del servidor",
@@ -71,7 +71,7 @@
        "third-description": "Desarrollado con Digital House, es un Ecommerce de una empresa que vende comida ahumada en bariloche, fue un trabajo grupal de 4 personas, se utilizo Node.js, css, HTMl, phpMyAdmin"
     },
     "contact": {
-        "title": "Contátame" 
+        "title": "Contáctame" 
       }
 
 }

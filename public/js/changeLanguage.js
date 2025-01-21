@@ -56,6 +56,6 @@ languageButton.addEventListener("click", () => {
     changeLanguage("en");
       } else {
     changeLanguage("es");
-    document.getElementById("english").style.visibility = "hidden";
+  
   }
 });
