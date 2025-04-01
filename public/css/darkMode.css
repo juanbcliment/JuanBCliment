@@ -1,0 +1,32 @@
+
+body.active_dark {
+    background-color: #1A202C;
+    color: #e8e6e3;
+}
+body.active_dark footer a {
+   
+    color: #e8e6e3;
+}
+
+body.active_dark .menu {
+    background-color: #0B1A37;
+    color: #FFFFFF;
+}
+
+body.active_dark .menu__link{
+    background-color: #0B1A37;
+    color: #FFFFFF;
+}
+body.active_dark .menu__link:hover{
+   
+    color: #009E12;
+}
+body.active_dark .border {
+    background-color: #0B1A37;
+    color: #FFFFFF;
+}
+body.active_dark .btn-cv,
+body.active_dark a,
+body.active_dark p {
+    color: #FFFFFF;
+}

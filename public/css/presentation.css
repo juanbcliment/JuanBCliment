@@ -1,0 +1,126 @@
+.title {
+    margin-top: 150px;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.presentation {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+   
+
+
+.profile {
+    text-align: center;
+    margin-right: 40px;
+}
+
+.img_profile {
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    
+}
+
+.introduction {
+    width: 40%;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 18px;
+}
+
+.boton_git,
+.btn-cv {
+    margin-top: 20px;
+    font-size: 22px;
+    padding: 1px 4px;
+    border: #009E12 solid 2px;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 2px 8px;
+
+}
+
+
+.btn-cv {
+    display: inline-block;
+}
+
+#cv-link {
+    text-decoration: none;
+    color: #000;
+}
+
+
+@media screen and (max-width: 1440px) {
+
+    .introduction {
+        font-size: 18px;
+    }
+    .boton_git,
+    .btn-cv {
+        font-size: 14px;
+    }
+    .img_profile {
+        width: 200px;
+        height: 200px;
+    }
+    .title {
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .introduction {
+        font-size: 16px;
+        width: 50%;
+    }
+    .boton_git,
+    .btn-cv {
+        font-size: 12px;
+    }
+    .img_profile {
+        width: 180px;
+        height: 180px;
+    }
+    .title {
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .presentation {
+        flex-direction: column; 
+    }  
+      .introduction {
+        width: 90%;
+        font-size: 18px;
+    }
+    .boton_git,
+    .btn-cv {
+        font-size: 14px;
+    }
+    .img_profile {
+        width: 150px;
+        height: 150px;
+    }
+    .title {
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .title {
+        font-size: 28px;
+    }
+
+    .introduction {
+        width: 100%;
+    }
+
+}

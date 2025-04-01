@@ -1,0 +1,127 @@
+/* ===========EXPERIENCIA*/
+.experience {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+
+}
+.margin-top{
+   margin-bottom: 5px;
+    font-weight: 500;
+}
+#job,
+#academic {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    align-items: baseline;
+    padding-left: 12%;
+}
+
+#job {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    align-items: baseline;
+    padding-left: 6%;
+}
+
+.experience_ind {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience_ind h2 {
+
+    font-size: 40px;
+    font-weight: 800;
+    padding-left: 8px;
+
+}
+
+.experience_ind h3 {
+    font-size: 28px;
+    padding: 0px 5px 0px 10px;
+    color: #009E12;
+    font-weight: 500;
+    margin-top: 20px;
+
+}
+
+.experience_ind h4 {
+    font-size: 25px;
+    padding: 0px 5px 0px 10px;
+    color: #009E12;
+    font-weight: 430;
+}
+
+.experience_ind p {
+    font-size: 20px;
+    padding: 0px 5px 0px 10px;
+    text-wrap: balance;
+    margin-top: initial;
+}
+
+.formacion{
+  width: 500px;
+}
+
+
+
+
+
+@media screen and (max-width: 1440px) {
+  
+    .experience_ind h2 {
+        font-size: 34px;
+        width: 400px;
+    }
+    .experience_ind h3 {
+        font-size: 24px;
+    }
+    .experience_ind h4 {
+        font-size: 22px;
+    }
+    .experience_ind p {
+        font-size: 18px;
+        text-wrap: inherit;
+        width: 400px;
+    }
+    .experience_ind {
+      width: 360px;
+   
+    }
+    #academic {
+
+    }
+}
+@media screen and (max-width: 1024px) {
+    .experience_ind h2 {
+        font-size: 30px;
+        width: 300px;
+    }
+    .experience_ind h3 {
+        font-size: 20px;
+    }
+    .experience_ind h4 {
+        font-size: 18px;
+    }
+    .experience_ind p {
+        font-size: 16px;
+        text-wrap: inherit;
+        width: 300px;
+    }
+    .experience_ind {
+      width: 300px;
+   
+    }
+    #academic {
+
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+ 
+ 
+}
