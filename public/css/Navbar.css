@@ -232,9 +232,11 @@ header {
 }
 
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    
+}
 
-/* media query */
+
 @media (max-width: 480px) {
     .menu__hamburguer {
         display: flex;

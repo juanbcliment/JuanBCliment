@@ -91,9 +91,7 @@
       width: 360px;
    
     }
-    #academic {
 
-    }
 }
 @media screen and (max-width: 1024px) {
     .experience_ind h2 {
@@ -115,13 +113,30 @@
       width: 300px;
    
     }
-    #academic {
-
+    #experience {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    #job{
+        padding-left: 0;
     }
 }
 
 
 @media screen and (max-width: 768px) {
  
- 
+    .experience {
+        flex-direction: column; 
+    }
+
+    #job,
+    #academic {
+        width: 100%; 
+        margin: 0 auto;
+        align-items: center;
+        padding: 0;
+
+    }
+
 }
