@@ -6,7 +6,7 @@ header {
 }
 
 .menu {
-    background-color: #FAF9F9;
+    background-color: #FFFFFF;
     height: 70px;
     border-bottom: 2px solid #009E12;
     border-radius: 0px 0px 8px 8px;
@@ -47,7 +47,7 @@ header {
     position: relative;
     width: 200px;
     justify-content: center;
-    background-color: #FAF9F9;
+    background-color: #FFFFFF;
 }
 
 .menu__link:hover {
@@ -264,7 +264,7 @@ header {
         top: 70px;
         bottom: 0;
         right: 0;
-        background-color: #000;
+        background-color: rgba(255, 255, 255, 0.5);
         overflow-y: auto;
         display: grid;
         grid-auto-rows: max-content;

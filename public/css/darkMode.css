@@ -30,3 +30,6 @@ body.active_dark a,
 body.active_dark p {
     color: #FFFFFF;
 }
+.body.active_dark .menu__links{
+    background-color: #0B1A37;
+}

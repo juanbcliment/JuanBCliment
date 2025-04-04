@@ -16,7 +16,7 @@
          "cv-href": "/public/CV/CV-JuanBCliment-DesarrolladorWeb-2024.pdf"
       },
     "profile": {
-        "title": "Sobre mí",
+        "title": "<span class='highlight'>Sobre mí</span>",
         "description": "Me apasiona aprender nuevas tecnologías y ampliar mis habilidades de desarrollo web. Actualmente estoy cursando la carrera de ingeniería informática y me estoy especializando en back-end con PHP, Node.js, SQL, phpMyAdmin y Laravel, pero tambien cuento con conocimientos en HTML, CSS, Boostrap, MVC y el manejo de repositorio con Github. Estoy en la búsqueda de una empresa donde me permita, aportar y seguir desarrollándome profesionalmente, tanto en modalidad híbrida como remota."
     },
     "experience": {
@@ -69,6 +69,20 @@
        "second-description": "Desarrollado con Digital House, es un Ecommerce de una empresa que vende comida ahumada en bariloche, fue un trabajo grupal de 4 personas, se utilizo Node.js, css, HTMl, phpMyAdmin",
        "third-title": "<span class='highlight'>Ecommerce Weis</span>",
        "third-description": "Desarrollado con Digital House, es un Ecommerce de una empresa que vende comida ahumada en bariloche, fue un trabajo grupal de 4 personas, se utilizo Node.js, css, HTMl, phpMyAdmin"
+    },
+    "skills":{
+        "skills-title": "<span class='highlight'>Habilidades Técnicas</span>"
+    },
+    "competencies": {
+        "competencies-title": "<span class='highlight'>Competencias</span>",
+        "first-competencies": "Trabajo en equipo",
+        "second-competencies": "Resolución de problemas",
+        "third-competencies": "Adaptabilidad",
+        "fourth-competencies": "Comunicación efectiva",
+        "fifth-competencies": "Creatividad",
+        "sixth-competencies": "Gestión del tiempo",
+        "seventh-competencies": "Pensamiento crítico",
+        "eighth-competencies": "Aprendizaje autónomo"
     },
     "contact": {
         "title": "Contáctame" 

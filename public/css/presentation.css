@@ -106,6 +106,10 @@
         margin: 0 auto;
         padding-top: 30px;
     }
+    .profile {
+        margin: 0 auto;
+        padding: 0;
+    }
     .boton_git,
     .btn-cv {
         font-size: 14px;

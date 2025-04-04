@@ -15,15 +15,11 @@
     width: 50%;
     margin: 0 auto;
     align-items: baseline;
-    padding-left: 12%;
+    padding-left: 8%;
+    
 }
-
-#job {
-    display: flex;
-    width: 50%;
-    margin: 0 auto;
-    align-items: baseline;
-    padding-left: 6%;
+#academic{
+   
 }
 
 .experience_ind {
