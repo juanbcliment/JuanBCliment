@@ -3,7 +3,7 @@
         "aboutMe": "Sobre mi",
         "skills": "Habilidades",
         "experience": "Experiencia", 
-        "portfolio": "Portafolio",
+        "portfolio": "Portfolio",
         "contact": "Contacto",
         "config": "Configuración"
     },
@@ -74,7 +74,7 @@
         "skills-title": "<span class='highlight'>Habilidades Técnicas</span>"
     },
     "competencies": {
-        "competencies-title": "<span class='highlight'>Competencias</span>",
+        "competencies-title": "<span class='highlight'>Habilidades blandas</span>",
         "first-competencies": "Trabajo en equipo",
         "second-competencies": "Resolución de problemas",
         "third-competencies": "Adaptabilidad",

@@ -15,12 +15,10 @@
     width: 50%;
     margin: 0 auto;
     align-items: baseline;
-    padding-left: 8%;
+    padding-left: 0;
     
 }
-#academic{
-   
-}
+
 
 .experience_ind {
     display: flex;
@@ -69,7 +67,7 @@
 @media screen and (max-width: 1440px) {
   
     .experience_ind h2 {
-        font-size: 34px;
+        font-size: 30px;
         width: 400px;
     }
     .experience_ind h3 {
@@ -91,7 +89,7 @@
 }
 @media screen and (max-width: 1024px) {
     .experience_ind h2 {
-        font-size: 30px;
+        font-size: 24px;
         width: 300px;
     }
     .experience_ind h3 {
@@ -129,10 +127,19 @@
     #job,
     #academic {
         width: 100%; 
-        margin: 0 auto;
-        align-items: center;
+        margin: 0 ;
+       
         padding: 0;
-
+        margin-bottom: 50px;
     }
+    .experience_ind h3 {
+      padding-top: 0px;
+      margin-top: 5px;
+    }
+    .experience_ind h2 {
+      font-size: 30px;
+      width: 360px;
+    
+      }
 
 }

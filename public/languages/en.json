@@ -75,7 +75,7 @@
         "skills-title": "<span class='highlight'>Hard Skills</span>"
     },
     "competencies": {
-        "competencies-title": "<span class='highlight'>Competencies</span>",
+        "competencies-title": "<span class='highlight'>Soft Skills</span>",
         "first-competencies": "Teamwork",
         "second-competencies": "Problem-solving",
         "third-competencies": "Adaptability",

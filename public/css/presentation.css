@@ -96,19 +96,27 @@
 }
 @media screen and (max-width: 768px) {
     .presentation {
+        margin-left: 9%;
         flex-direction: column; 
-        
+        margin-top: 0;
+        margin-bottom: 0;
     }  
+    .title{
+        text-align: left;
+        padding-left: 0;
+        font-size: 24px;
+    }
       .introduction {
-        width: 70%;
-        font-size: 18px;
-        align-items: center;
-        margin: 0 auto;
-        padding-top: 30px;
+        width: 80%;
+        font-size: 16px;
+        padding-top: 0;
+        margin-top: 10px;
+        text-align: left;
+       
     }
     .profile {
-        margin: 0 auto;
-        padding: 0;
+        text-align: left;
+        padding-left: 80px;
     }
     .boton_git,
     .btn-cv {
@@ -118,18 +126,19 @@
         width: 150px;
         height: 150px;
     }
-    .title {
-        font-size: 32px;
-    }
   
+    .precentatio-corto{
+       text-align: left;
+    }
 }
 @media screen and (max-width: 480px) {
     .title {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .introduction {
         width: 100%;
+        font-size: 14px;
     }
-
+  
 }
