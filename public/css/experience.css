@@ -143,3 +143,11 @@
       }
 
 }
+@media screen and (max-width: 480px){
+    .experience_ind h2 {
+        font-size: 26px;
+    }
+    .experience_ind h3 {
+        font-size: 18px;
+    }
+}

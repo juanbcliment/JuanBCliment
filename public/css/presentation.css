@@ -15,8 +15,6 @@
     margin-bottom: 60px;
 }
    
-
-
 .profile {
     text-align: center;
     margin-right: 40px;
@@ -103,7 +101,7 @@
     }  
     .title{
         text-align: left;
-        padding-left: 0;
+        padding-left: 10%;
         font-size: 24px;
     }
       .introduction {
@@ -140,5 +138,8 @@
         width: 100%;
         font-size: 14px;
     }
-  
+    .profile {
+        
+        padding-left: 60px;
+    }
 }

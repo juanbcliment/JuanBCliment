@@ -241,8 +241,9 @@ header {
 
 @media screen and (max-width: 768px) {
     .menu__link {
-        width: 65px;
+        width: auto;
         font-size: 10px;
+        padding-left: 20px;
     }
 
     .menu__nesting {
@@ -252,7 +253,9 @@ header {
     .switch_language p {
         font-size: 12px;
     }
-
+    .switch_dark{
+        width: auto;
+    }
     .switch_language {
         width: 40px;
         height: 24px;
@@ -276,32 +279,33 @@ header {
 
 @media (max-width: 480px) {
     .menu__link {
-        width: 120px;
-        font-size: 15px;
+       width: auto;
+        padding-left: 8px;
+     height: a;
     }
-
-    .menu__nesting {
-        width: 100px;
+    .menu__container{
+       margin: 0;
+        width: 400px;
+       height: auto;
     }
-
+    .menu__links{
+        text-align: left;
+    }
     .switch_language p {
-        font-size: 15px;
-    }
-
-    .switch_language {
-        width: 60px;
-        height: 30px;
-        padding: 0 5px;
-    }
-
-    .menu_option_language li:last-child::before {
-        height: 20px;
-        width: 20px;
+        font-size: 10px;
         margin-top: 2px;
     }
+    .switch_language {
+        width: 35px;
+        height: 20px;
+        padding: 0 2px;
+    }
+    .menu_option_language li:last-child::before {
+        height: 12px;
+        width: 12px;
+        margin: 1px 1px; 
 
-    .switch_dark {
-        font-size: 22px;
+
     }
   /*   .menu__hamburguer {
         display: flex;

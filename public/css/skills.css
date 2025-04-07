@@ -68,3 +68,32 @@
         width: 350px;
     }
 }
+@media screen and (max-width: 480px) {
+    .habilidades {
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .habilidades>div {
+        width: 100%;
+        padding: 20px 0; 
+        margin: 0 0;
+    }
+    #habilidades-section {
+        padding-top: 20px;
+        margin: 0 auto;
+      
+    }
+
+    #skills h3 {
+        font-size: 30px;
+        width: 300px;
+        padding: 0px 0px 10px 0px;
+        margin: 0;
+    }
+
+    #skills li {
+        margin-left: 10px;
+        width: 300px;
+    }
+}
