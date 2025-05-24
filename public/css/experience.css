@@ -2,6 +2,7 @@
 .experience {
     width: 80%;
     display: flex;
+    flex-direction: column;
     margin: 0 auto;
 
 }
@@ -12,13 +13,12 @@
 #job,
 #academic {
     display: flex;
-    width: 50%;
+    flex-direction: column;
     margin: 0 auto;
     align-items: baseline;
     padding-left: 0;
     
 }
-
 
 .experience_ind {
     display: flex;
@@ -27,14 +27,15 @@
 
 .experience_ind h2 {
 
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
     padding-left: 8px;
+    margin-top: 40px;
 
 }
 
 .experience_ind h3 {
-    font-size: 28px;
+    font-size: 22px;
     padding: 0px 5px 0px 10px;
     color: #009E12;
     font-weight: 500;
@@ -43,54 +44,30 @@
 }
 
 .experience_ind h4 {
-    font-size: 25px;
+    font-size: 20px;
     padding: 0px 5px 0px 10px;
     color: #009E12;
     font-weight: 430;
 }
 
 .experience_ind p {
-    font-size: 20px;
-    padding: 0px 5px 0px 10px;
-    text-wrap: balance;
+    font-size: 14px;
+    padding: 0px 0px 5px 10px;
     margin-top: initial;
+    word-spacing: -3px;
+    text-wrap: inherit;
 }
 
-.formacion{
-  width: 500px;
-}
 
 
 
 
 
-@media screen and (max-width: 1440px) {
-  
-    .experience_ind h2 {
-        font-size: 30px;
-        width: 400px;
-    }
-    .experience_ind h3 {
-        font-size: 24px;
-    }
-    .experience_ind h4 {
-        font-size: 22px;
-    }
-    .experience_ind p {
-        font-size: 18px;
-        text-wrap: inherit;
-        width: 400px;
-    }
-    .experience_ind {
-      width: 360px;
-   
-    }
 
-}
 @media screen and (max-width: 1024px) {
     .experience_ind h2 {
         font-size: 24px;
-        width: 300px;
+        
     }
     .experience_ind h3 {
         font-size: 20px;
@@ -101,12 +78,9 @@
     .experience_ind p {
         font-size: 16px;
         text-wrap: inherit;
-        width: 300px;
+        
     }
-    .experience_ind {
-      width: 300px;
-   
-    }
+    
     #experience {
         width: 100%;
         margin: 0 auto;

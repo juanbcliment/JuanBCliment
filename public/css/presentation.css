@@ -1,18 +1,20 @@
 .title {
     margin-top: 150px;
-    text-align: center;
-    font-size: 40px;
+    margin-left: 130px;
+    font-size: 30px;
+    width: 70%;
+    display: flex;
 }
 
 
 .presentation {
-    margin-top: 20px;
+   
     text-align: center;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+   
     padding: 20px;
-    margin-bottom: 60px;
+    
 }
    
 .profile {
@@ -22,34 +24,40 @@
 
 .img_profile {
     margin-top: 20px;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
+    margin-left: 180px;
     
 }
 
 .introduction {
     width: 40%;
     text-align: center;
-    margin-top: 80px;
-    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 110px;
+    font-size: 14px;
 }
-
+.introduction p{
+        text-align: left;
+    }
 .boton_git,
 .btn-cv {
     margin-top: 20px;
-    font-size: 22px;
+    font-size: 14px;
     padding: 1px 4px;
     border: #009E12 solid 2px;
     text-decoration: none;
     border-radius: 10px;
     padding: 2px 8px;
+    margin-right: 11px;
 
 }
 
 
 .btn-cv {
     display: inline-block;
+    
 }
 
 #cv-link {
@@ -57,7 +65,7 @@
     color: #000;
 }
 
-
+/* 
 @media screen and (max-width: 1440px) {
 
     .introduction {
@@ -74,7 +82,7 @@
     .title {
         font-size: 35px;
     }
-}
+} */
 @media screen and (max-width: 1024px) {
     .introduction {
         font-size: 16px;

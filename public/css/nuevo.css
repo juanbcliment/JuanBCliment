@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+
+.highlight {
+    color: #009E12;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+h1 {
+    font-size: 30px;
+    font-weight: 800;
+   
+}
+h2 {
+    font-size: 25px;
+    font-weight: 800;
+    ;
+}
+
+h3 {
+    font-size: 18px;
+    color: #009E12;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 14px;
+    color: #009E12;
+}
+
+p {
+    font-size: px;
+
+}
+
+/* ============================     NAVBAR ============================== */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu {
+    background-color: #FFFFFF;
+    height: 50px;
+    border-bottom: 2px solid #009E12;
+    border-radius: 0px 0px 8px 8px;
+
+}
+
+.menu__links {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.menu__link {
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    background-color: #FFFFFF;
+    margin: 0 30px;
+
+}
+
+.menu__container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+
+.menu__item {
+
+    list-style: none;
+    position: relative;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu__link:hover {
+    color: #009E12;
+
+}
+
+/*=============================================== CHANGE LANGUAGE =========================================================*/
+.switch_language {
+    width: 50px;
+    height: auto;
+    padding: 3px 3px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    border-radius: 100px;
+    border: #009E12 solid 2px;
+    text-align: center;
+    justify-content: center;
+}
+
+.menu_option_language li:last-child::before {
+    content: "";
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 0px;
+    position: absolute;
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background-color: #009E12;
+    border: solid 1px #000;
+    left: 0;
+    right: unset;
+}
+
+.switch_language p {
+    font-size: 14px;
+    flex: 0.5;
+    text-align: center;
+    margin: 0 auto;
+}
+.menu_option_language li:last-child.active::before {
+    right: 0;
+    left: unset;
+
+}
+
+
+.switch_dark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.menu__link.active-nav-link {
+    color: #009E12;
+    font-weight: bold;
+
+}
+
+
+/* ============================== PRESENTACION ================================= */
+
+.title {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.presentation {
+    display: flex;  
+    margin: 0 auto;
+    justify-content: center;
+    
+}
+
+.img_profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 8%;
+    margin-left: 50px;
+}
+
+.introduction {
+    width: 30%;
+  
+
+}
+@media (max-width: 1024px) {
+    .menu_option_language li:last-child::before {
+        margin-top: -0.7px;
+        width: 15px;
+        height: 15px;
+    }
+
+
+
+
+
+}
+
+
+@media (max-width: 768px) {
+    .menu__links {
+        font-size: 10px;
+
+    }
+
+    .menu__link {
+        margin: 0 8px;
+    }
+
+    .switch_language {
+        width: 40px;
+
+    }
+
+    .switch_language p {
+        font-size: 10px;
+    }
+
+    .menu_option_language li:last-child::before {
+        margin-top: -0.7px;
+        width: 12px;
+        height: 12px;
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+
+  
+
+    .switch_dark {
+        font-size: 14px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+@media (max-width: 480px) {
+   .menu__links {
+        font-size: 9px;
+
+    }
+    .menu__link{
+        margin: 0 6px;
+    }
+     .switch_language {
+        width: 30px;
+         border: #009E12 solid 1px;
+
+    }
+
+    .switch_language p {
+        font-size: 8px;
+    }
+
+    .menu_option_language li:last-child::before {
+        margin-top: -0.7px;
+        width: 10px;
+        height: 10px;
+        margin-left: 2px;
+        margin-right: 2px;
+        border: solid 0.5px #000;
+    }
+}
