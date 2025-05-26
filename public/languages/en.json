@@ -1,5 +1,5 @@
 {
-    "navBar":{
+    "navBar": {
         "aboutMe": "About Me",
         "skills": "Skills",
         "experience": "Experience",
@@ -8,80 +8,94 @@
         "config": "Config"
     },
     "presentatio": {
-        "introduction": "Web programmer with a <span class='highlight'>passion for technology and coding</span>." 
-      },
-    "profile": {
-        "title": "<span class='highlight'>About Me</span>",
-        "description": "I am passionate about learning new technologies and expanding my web development skills.  I am currently studying computer engineering and I am specializing in back-end with PHP, Node.js, SQL, phpMyAdmin and Laravel, but I also have knowledge of HTML, CSS, Boostrap, MVC and repository management with Github. I am looking for a company where I can contribute and continue developing professionally, both in hybrid and remote modes."
+        "introduction": "Electromechanical Technician, focused for several years on Web Development, specializing in <span class='highlight'>Databases</span>, <span class='highlight'>Secure Shell</span> protocols, and <span class='highlight'>Linux</span> servers."
     },
     "cv": {
-        "description-cv": "Download CV",
+        "description-cv": "CV English",
         "cv-href": "https://drive.google.com/file/d/1p-5FdNxcfQqedVi7gySUsPffsQEfUkc6/view?usp=sharing"
-     
-      },
+    },
     "experience": {
         "experience-title": "Experience",
         "first-job-title": "Customer Service Analyst",
         "first-job-company": "Thinkion",
-        "first-job-dates": "December 2023",
-        "first-job-description-1": "Manejo de SQL y phpMyAdmin",
-        "first-job-description-2": "Google Cloud Services",
-        "first-job-description-3": "Identificar y reparar errores del servidor",
-        "first-job-description-4": "Postman",
+        "first-job-dates": "December 2023 - Present",
+        "first-job-description-1": "Proven ability to identify, diagnose, and effectively resolve server errors, ensuring operational continuity.",
+        "first-job-description-2": "Extensive knowledge of MariaDB and SQL for resolving database errors.",
+        "first-job-description-3": "Daily use of SSH protocol and implementation of new or existing Linux commands to facilitate problem identification.",
+        "first-job-description-4": "Experience creating SQL queries to optimize problem resolution and improve operational efficiency.",
+        "first-job-description-5": "Testing of new functionalities and corresponding documentation of bugs and suggestions, when necessary.",
+        "first-job-description-6": "Exceptional customer support skills, with a focus on quick and effective problem resolution.",
+        "first-job-description-7": "<span class='highlight'>Main achievements</span>",
+        "first-job-description-8": "Optimization in problem-solving through the creation and implementation of strategic SQL queries, resulting in faster error resolution.",
+        "first-job-description-9": "Creation of detailed and easy-to-understand guides for new system features. <br>",
+        "first-job-description-10": "Development of a custom script for extracting specific data during bulk uploads in Postman.",
+        "first-job-description-11": "Suggested several well-documented system improvements and new designs in Figma for specific parts of the system, making it more intuitive and reducing client errors and training times.",
         "second-job-title": "Quality Control Technician",
         "second-job-company": "Novatech S.A",
         "second-job-dates": "August 2016 - October 2016",
-        "second-job-description-1": "Controlar instalación del sistema operativo",
-        "second-job-description-2": "Comprobación de circuitos electrónicos",
-        "second-job-description-3": "Optimizar posibles fallas en fabricación"
-       
+        "second-job-description-1": "Quality control of notebook production, including motherboards, RAM memory, screens, keyboards, Wi-Fi, Bluetooth.",
+        "second-job-description-2": "Verification that the Ubuntu operating system works correctly and that there are no software issues.",
+        "second-job-description-3": "Production control of routers, modems, and landline phones.",
+        "second-job-description-4": "Optimize possible manufacturing issues and report potential failures in the production area."
     },
     "academic": {
-        "academic-title": "Academic",
-        "first-eduction-title": "Informatics Engineering",
-        "first-eduction-institute": "University of Palermo",
+        "academic-title": "Academic Background",
+        "first-eduction-title": "Bachelor's Degree in Information Technology Management",
+        "first-eduction-institute": "Universidad Argentina de la Empresa",
         "first-eduction-dates": "August 2023 - Present",
-        "first-eduction-description": "Currently studying the first year of the degree",
+        "first-eduction-description": "First year of the degree program. Approved courses: Web Design and Development, Application Testing, Programming I. <br> Currently enrolled in: Object-Oriented Programming in Java and Programming Algorithms.",
         "second-eduction-title": "PHP Developer",
         "second-eduction-institute": "Argentina Programa 4.0",
-        "second-eduction-dates": "May 2023 - November 2023 - Graduate",
-        "second-eduction-description": "Management of PHP, Html, CSS, Laravel, SQl and Boostrap, creation of a web page, Creation of a database with phpMyAdmin",
-        "third-eduction-title": "Development Web Full Stack",
+        "second-eduction-dates": "May 2023 - November 2023 Graduated",
+        "second-eduction-description": "Knowledge of PHP, Object-Oriented Programming, HTML5, CSS3, Laravel, SQL, and Bootstrap. Created a website and a database using phpMyAdmin.",
+        "third-eduction-title": "Full Stack Web Development",
         "third-eduction-institute": "Digital House",
-        "third-eduction-dates": "June 2022 - December 2022 - Graduate",
-        "third-eduction-description": "Creation of a website from scratch with Node.js, MVC methodology, phpMyAdmin, HTML, CSS and SQL, management of Github and version control",
-        "fourth-eduction-title": "Secondary",
-        "fourth-eduction-institute": "Escuela Técnica Alemana Moreno",
-        "fourth-eduction-dates": "Completed in December 2014",
-        "fourth-eduction-description": "Graduated with the title of Electromechanical Technician"
+        "third-eduction-dates": "June 2022 - December 2022 Graduated",
+        "third-eduction-description": "Built an eCommerce platform using Node.js, Express.js, MVC methodology, phpMyAdmin, HTML, CSS, and SQL. Experience with GitHub and version control. Created, designed, and implemented a MySQL database.",
+        "fourth-eduction-title": "Electromechanical Technician",
+        "fourth-eduction-institute": "High School: Escuela Técnica Alemana Moreno",
+        "fourth-eduction-dates": "March 2007 - December 2014 Graduated",
+        "fourth-eduction-description": "Preventive maintenance, corrective maintenance, optimization of production processes, AutoCAD, mechanics, electromechanics, CNC, pneumatics, hydraulics, electricity, electronics, PLC programming, QBasic programming, quality control, industrial safety, electromechanics, technical drawing interpretation and drafting."
     },
-    
-    "portfolio":{
+    "portfolio": {
         "site": "<span class='highlight'>Go to site</span>",
         "code": "<span class='highlight'>See the code</span>",
-       "first-title": "<span class='highlight'>Ecommerce Weiss</span>",
-       "first-description": "Desarrollado con Digital House, es un Ecommerce de una empresa que vende comida ahumada en bariloche, fue un trabajo grupal de 4 personas, se utilizo Node.js, css, HTMl, phpMyAdmin",
-       "second-title": "<span class='highlight'>Ecommerce Weis</span>",
-       "second-description": "Desarrollado con Digital House, es un Ecommerce de una empresa que vende comida ahumada en bariloche, fue un trabajo grupal de 4 personas, se utilizo Node.js, css, HTMl, phpMyAdmin",
-       "third-title": "<span class='highlight'>Ecommerce Weis</span>",
-       "third-description": "Desarrollado con Digital House, es un Ecommerce de una empresa que vende comida ahumada en bariloche, fue un trabajo grupal de 4 personas, se utilizo Node.js, css, HTMl, phpMyAdmin"
+        "first-title": "<span class='highlight'>Ecommerce Weiss</span>",
+        "first-description": "Desarrollado con Digital House, es un Ecommerce de una empresa que vende comida ahumada en bariloche, fue un trabajo grupal de 4 personas, se utilizo Node.js, css, HTMl, phpMyAdmin",
+        "second-title": "<span class='highlight'>Ecommerce Weis</span>",
+        "second-description": "Desarrollado con Digital House, es un Ecommerce de una empresa que vende comida ahumada en bariloche, fue un trabajo grupal de 4 personas, se utilizo Node.js, css, HTMl, phpMyAdmin",
+        "third-title": "<span class='highlight'>Ecommerce Weis</span>",
+        "third-description": "Desarrollado con Digital House, es un Ecommerce de una empresa que vende comida ahumada en bariloche, fue un trabajo grupal de 4 personas, se utilizo Node.js, css, HTMl, phpMyAdmin"
     },
-    "skills":{
+    "skills": {
         "skills-title": "<span class='highlight'>Hard Skills</span>"
     },
     "competencies": {
         "competencies-title": "<span class='highlight'>Soft Skills</span>",
-        "first-competencies": "Teamwork",
-        "second-competencies": "Problem-solving",
+        "first-competencies": "<strong>Teamwork</strong>",
         "third-competencies": "Adaptability",
-        "fourth-competencies": "Effective communication",
+        "second-competencies": "<strong>Problem Solving</strong>",
         "fifth-competencies": "Creativity",
-        "sixth-competencies": "Time management",
-        "seventh-competencies": "Critical thinking",
-        "eighth-competencies": "Self-directed learning"
+        "fourth-competencies": "<strong>Effective Communication</strong>",
+        "sixth-competencies": "Time Management",
+        "eighth-competencies": "Autonomous Learning",
+        "seventh-competencies": "<strong>Critical Thinking</strong>",
+        "ninth-competencies": "Empathy",
+        "eleventh-competencies": "Leadership",
+        "twelfth-competencies": "Strategic Thinking",
+        "tenth-competencies": "<strong>Proactivity</strong>",
+        "thirteenth-competencies": "Stress Management",
+        "fourteenth-competencies": "Continuous Learning Ability"
+    },
+    "aboutMe": {
+        "title": "<span class='highlight'>About Me</span>",
+        "first-description": "Since I was a child, I’ve been fascinated by understanding how things work and how to improve them. I started by disassembling toys and appliances, then moved on to repairing electrical installations and building parts of the house. Later, I focused on computers: taking them apart, cleaning them, and upgrading their hardware became part of my daily routine.",
+        "second-description": "In high school, I decided to transfer to a technical school to continue training in what I was passionate about. There I learned electronics, mechanics, project development, critical thinking, and most importantly, my first programming languages: <span>QBasic</span>, <span>PLC programming</span>, and working with <span>CNC lathes</span>. It was then that I knew for sure I wanted to become a programmer.",
+        "third-description": "Today, as an <span>Electromechanical Technician</span>, I channel that same curiosity through programming. I enjoy identifying problems, finding practical solutions, and automating tasks. I currently work at Thinkion as a <span>Customer Service Analyst</span>, where I combine technical support with testing and development to improve user experience and system stability.",
+        "fourth-description": "I’m continuing my education with a Bachelor's degree in IT Management, specializing in backend development with <span>Node.js</span>, <span>SQL</span>, <span>phpMyAdmin</span>, and as a long-time <span>Linux</span> enthusiast, also in Linux server administration and development. I aspire to join a team where I can keep growing, add value, and participate in projects that challenge my creativity and logic.",
+        "fifth-description": "Bonus fact, if you’ve made it this far: my current operating system is <span>EndeavourOS</span> (based on Arch Linux). I believe in continuous learning and in the importance of understanding both the user and the system."
     },
     "contact": {
-        "title": "Contact Me" 
-      }
-
+        "title": "Contact Me"
+    }
 }

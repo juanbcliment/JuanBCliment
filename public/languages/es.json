@@ -1,22 +1,18 @@
 {
-    "navBar":{
+    "navBar": {
         "aboutMe": "Sobre mi",
         "skills": "Habilidades",
-        "experience": "Experiencia", 
+        "experience": "Experiencia",
         "portfolio": "Portfolio",
         "contact": "Contacto",
         "config": "Configuración"
     },
     "presentatio": {
-      "introduction": "Tecnico Electromecanico, enfocado desde hace varios años en la programacion Web, especializandome en <span class='highlight'>Base de datos</span>, procolos <span class='highlight'>Secure Shell</span> y servidores <span class='highlight'>Linux.</span>"
+        "introduction": "Tecnico Electromecanico, enfocado desde hace varios años en la programacion Web, especializandome en <span class='highlight'>Base de datos</span>, protocolos <span class='highlight'>Secure Shell</span> y servidores <span class='highlight'>Linux.</span>"
     },
     "cv": {
-        "description-cv": "Descargar CV",
-         "cv-href": "https://drive.google.com/file/d/1_ElzoEC3zr_LQIcxzeeqzPtEqjFkNt5i/view?usp=sharing"
-      },
-    "profile": {
-        "title": "<span class='highlight'>Sobre mí</span>",
-        "description": "Me apasiona aprender nuevas tecnologías y ampliar mis habilidades de desarrollo web. Actualmente estoy cursando la carrera de ingeniería informática y me estoy especializando en back-end con PHP, Node.js, SQL, phpMyAdmin y Laravel, pero tambien cuento con conocimientos en HTML, CSS, Boostrap, MVC y el manejo de repositorio con Github. Estoy en la búsqueda de una empresa donde me permita, aportar y seguir desarrollándome profesionalmente, tanto en modalidad híbrida como remota."
+        "description-cv": "CV Español",
+        "cv-href": "https://drive.google.com/file/d/1_ElzoEC3zr_LQIcxzeeqzPtEqjFkNt5i/view?usp=sharing"
     },
     "experience": {
         "experience-title": "Experiencia",
@@ -29,7 +25,7 @@
         "first-job-description-4": "Experiencia en la creación de consultas SQL para optimizar la resolución de problemas y mejorar la eficiencia operativa.",
         "first-job-description-5": "Testin de nuevas funcionalidades y su respectiva documetacion de fallas y sugerencias, de ser necesario.",
         "first-job-description-6": "Habilidades de soporte al cliente excepcionales, con un enfoque en la resolución rápida y efectiva de problemas.",
-        "first-job-description-7": "<br><span class='highlight'>Principales logros</span>",
+        "first-job-description-7": "<span class='highlight'>Principales logros</span>",
         "first-job-description-8": "Optimization en la resolución de problemas, mediante la creación e implementación de queries SQL estratégicas, lo que resultó en una mayor velocidad a la hora de solucionar errores.",
         "first-job-description-9": "Creación de guías detalladas y fáciles de entender, de las nuevas funcionalidades del sistema. <br> ",
         "first-job-description-10": "Desarrollo de Script personalizado, para la extracción de datos específicos al momento de hacer cargas masivas en postman.",
@@ -61,32 +57,45 @@
         "fourth-eduction-dates": "Marzo 2007 - Diciembre 2014 Graduado",
         "fourth-eduction-description": "Mantenimiento preventivo, Mantenimiento correctivo, Optimizar procesos productivos, AutoCAD, Mecanica, Electromecanica, CNC, Neumática, Hidráulica, Electricidad, Electronica, Programación de PLC, Programacion en QBasic Control de calidad, Seguridad industrial, Electromecanica, Lectura y creacion de planos"
     },
-    "portfolio":{
+    "portfolio": {
         "site": "<span class='highlight'>Ir al sitio</span>",
         "code": "<span class='highlight'>Ver el codigo</span>",
-       "first-title": "<span class='highlight'>eCommerce de compra y venta</span>",
-       "first-description": "Sitio clasico de compra y venta de productos, se uso Nodje.js para el servidor y phpMyAdmin para la base de datos, se aplico la metodologia de MVC, se utilizo css, html, y se aplico el manejo de versiones con Github",
-       "second-title": "<span class='highlight'>Ecommerce Weis</span>",
-       "second-description": "Desarrollado con Digital House, es un Ecommerce de una empresa que vende comida ahumada en bariloche, fue un trabajo grupal de 4 personas, se utilizo Node.js, css, HTMl, phpMyAdmin",
-       "third-title": "<span class='highlight'>Ecommerce Weis</span>",
-       "third-description": "Desarrollado con Digital House, es un Ecommerce de una empresa que vende comida ahumada en bariloche, fue un trabajo grupal de 4 personas, se utilizo Node.js, css, HTMl, phpMyAdmin"
+        "first-title": "<span class='highlight'>eCommerce de compra y venta</span>",
+        "first-description": "Sitio clasico de compra y venta de productos, se uso Nodje.js para el servidor y phpMyAdmin para la base de datos, se aplico la metodologia de MVC, se utilizo css, html, y se aplico el manejo de versiones con Github",
+        "second-title": "<span class='highlight'>Ecommerce Weis</span>",
+        "second-description": "Desarrollado con Digital House, es un Ecommerce de una empresa que vende comida ahumada en bariloche, fue un trabajo grupal de 4 personas, se utilizo Node.js, css, HTMl, phpMyAdmin",
+        "third-title": "<span class='highlight'>Ecommerce Weis</span>",
+        "third-description": "Desarrollado con Digital House, es un Ecommerce de una empresa que vende comida ahumada en bariloche, fue un trabajo grupal de 4 personas, se utilizo Node.js, css, HTMl, phpMyAdmin"
     },
-    "skills":{
+    "skills": {
         "skills-title": "<span class='highlight'>Habilidades Técnicas</span>"
     },
     "competencies": {
         "competencies-title": "<span class='highlight'>Habilidades blandas</span>",
-        "first-competencies": "Trabajo en equipo",
-        "second-competencies": "Resolución de problemas",
+        "first-competencies": "<strong>Trabajo en equipo</strong>",
         "third-competencies": "Adaptabilidad",
-        "fourth-competencies": "Comunicación efectiva",
+        "second-competencies": "<strong>Resolución de problemas</strong>",
         "fifth-competencies": "Creatividad",
+        "fourth-competencies": "<strong>Comunicación efectiv</strong>",
         "sixth-competencies": "Gestión del tiempo",
-        "seventh-competencies": "Pensamiento crítico",
-        "eighth-competencies": "Aprendizaje autónomo"
+        "eighth-competencies": "Aprendizaje autónomo",
+        "seventh-competencies": "<strong>Pensamiento crítico</strong>",
+        "ninth-competencies": "Empatía",
+        "eleventh-competencies": "Liderazgo",
+        "twelfth-competencies": "Pensamiento estratégico",
+        "tenth-competencies": "<strong>Proactividad</strong>",
+        "thirteenth-competencies": "Manejo del estrés ",
+        "fourteenth-competencies": "Capacidad de aprendizaje continuo"
+    },
+    "aboutMe": {
+        "title": "<span class='highlight'>Sobre mí</span>",
+        "first-description": "Desde chico me fascina entender cómo funcionan las cosas y cómo mejorarlas. Empecé desarmando juguetes y electrodomésticos, seguí reparando instalaciones eléctricas y construyendo partes de la casa. Más adelante me enfoqué en las computadoras: desarmarlas, limpiarlas y agregarles hardware era parte del día a día.",
+        "second-description": "En secundaria decidí cambiarme a una escuela técnica para seguir formándome en lo que me apasiona. Allí aprendí electrónica, mecánica, desarrollo de proyectos, pensamiento crítico, y sobre todo, mis primeros lenguajes: QBasic, programación de PLC y el manejo de Tornos CNC. Fue ahí donde supe con certeza que quería ser programador.",
+        "third-description": "Hoy, ya como Técnico Electromecánico, canalizo esa misma curiosidad a través de la programación. Disfruto identificar problemas, buscar soluciones prácticas y automatizar tareas. Actualmente trabajo en Thinkion como Customer Service Analyst, donde combino soporte técnico con testing y desarrollo para mejorar la experiencia del usuario y la estabilidad del sistema.",
+        "fourth-description": "Sigo formándome en la Licenciatura en Sistemas, especializándome en backend con Node.js, SQL, phpMyAdmin, y como amante de Linux desde hace años, también en administración y desarrollo de servidores Linux. Aspiro a integrarme a un equipo donde pueda seguir creciendo, aportar valor y participar en proyectos que desafíen mi creatividad y lógica.",
+        "fifth-description": "Como dato extra, si llegaste hasta acá: mi sistema operativo actual es EndeavourOS (basado en Arch Linux). Creo en el aprendizaje constante y en la importancia de entender tanto al usuario como al sistema."
     },
     "contact": {
-        "title": "Contáctame" 
-      }
-
+        "title": "Contáctame"
+    }
 }

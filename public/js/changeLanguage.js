@@ -23,6 +23,8 @@ const changeLanguage = async (lang) => {
 
     window.scrollTo(0, currentScrollPosition);
     document.body.style.visibility = "visible";
+
+
     localStorage.setItem("selectedLanguage", lang);
   } catch (error) {
     console.error("Error al cargar el archivo de idioma:", error);
