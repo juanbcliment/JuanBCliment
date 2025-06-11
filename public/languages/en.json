@@ -12,7 +12,7 @@
     },
     "cv": {
         "description-cv": "CV English",
-        "cv-href": "https://drive.google.com/file/d/1p-5FdNxcfQqedVi7gySUsPffsQEfUkc6/view?usp=sharing"
+        "cv-href": "https://drive.google.com/file/d/1C0aEYMqe1wAvuyVcqH-Zlca_K-wDo9t7/view?usp=sharing"
     },
     "experience": {
         "experience-title": "Experience",
@@ -30,6 +30,7 @@
         "first-job-description-9": "Creation of detailed and easy-to-understand guides for new system features. <br>",
         "first-job-description-10": "Development of a custom script for extracting specific data during bulk uploads in Postman.",
         "first-job-description-11": "Suggested several well-documented system improvements and new designs in Figma for specific parts of the system, making it more intuitive and reducing client errors and training times.",
+        "first-job-description-12": "Implemented an automated system for managing and assigning support tickets. Using PHP, the script interacts with the Freshdesk API to retrieve pending tickets and assigns them to operational agents using a round-robin algorithm, ensuring a fair distribution of workload and improving team efficiency.",
         "second-job-title": "Quality Control Technician",
         "second-job-company": "Novatech S.A",
         "second-job-dates": "August 2016 - October 2016",
