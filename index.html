@@ -4,9 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portafolio de Juan Bautista Climent, desarrollador web con experiencia en tecnologías backend y frontend como Node.js, PHP, Laravel y JavaScript.">
+    <meta name="description"
+        content="Portfolio of Juan Bautista Climent, a web developer with experience in backend and frontend technologies like Node.js, PHP, Laravel, and JavaScript.">
     <link rel="stylesheet" href="public/css/style.css">
-    <script src="https://kit.fontawesome.com/4d4e7abfc3.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="public/css/portfolio.css"> -->
+
+    <style>
+        :where(h1) {
+            margin-block: 0.67em;
+            font-size: 2em;
+        }
+    </style>
     <title>Juan B Climent</title>
 </head>
 
@@ -18,7 +26,7 @@
 
                     <li class="menu__item">
                         <a href="#home" class="menu__link">
-                            <i class="fa-solid fa-house"></i>
+                            <img class="house" src="public/img/house-solid.svg" alt="Home">
                         </a>
                     </li>
                     <li class="menu__item">
@@ -45,15 +53,16 @@
                         </a>
                     </li>
                 </ul>
-                <li class="menu__item">
+                <div class="menu__item">
                     <a href="#" class="menu__link">
-                        <ul class="menu_option_dark_mode">
-                            <li class="switch_dark">
-                                <i id="theme-icon" class="fa-solid fa-sun"></i>
-                            </li>
-                        </ul>
+                        <div class="menu_option_dark_mode">
+                            <div class="switch_dark">
+                                <img id="sun-icon" src="public/img/sun-solid.svg" alt="Sun icon" class="theme-icon">
+                                <img id="moon-icon" src="public/img/moon-solid.svg" alt="Moon icon" class="theme-icon">
+                            </div>
+                        </div>
                     </a>
-                </li>
+                </div>
 
 
 
@@ -76,7 +85,8 @@
                         <a class="boton_git" href="https://github.com/juanbcliment" target="_blank">GitHub</a>
                     </div>
                     <div class="profile">
-                        <img class="img_profile" src="public/img/img_profile.jpeg" alt="">
+                        <img class="img_profile" src="public/img/img_profile.jpeg"
+                            alt="Foto de perfil de Juan Bautista Climent" width="200" height="200">
                     </div>
                 </div>
         </section>
@@ -152,7 +162,44 @@
             </div>
 
         </section>
+        <!-- <section id="portfolio">
+            <div class="portfolio-container">
+                <div class="texto-encima">More actions
+                    <h3 data-section="portfolio" data-value="second-title"></h3>
+                    <p data-section="portfolio" data-value="second-description"></p>
+                    <div class="languages_prog">
+                        <div class="row">
+                            <img class="nodejs-png" src="public/img/laravel.png" alt="">
+                            <img class="phpmyadmin-png" src="public/img/phpmyadmin.png" alt="">
+                            <img class="sql-png" src="public/img/sql.png" alt="">
+                        </div>
 
+                        <div class="row">
+                            <img class="html-png" src="public/img/html.png" alt="">
+                            <img class="css-png" src="public/img/css.png" alt="">
+                            <img class="js-png" src="public/img/php.png" alt="">
+                        </div>
+                    </div>
+                    <div class="row botones">
+                        <a href="https://github.com/juanbcliment/Weiss" target="_blank">
+                            <p data-section="portfolio" data-value="code"></p>
+                        </a>
+                    </div>
+                    <a href="https://github.com/juanbcliment/Weiss" target="_blank">
+                        <p data-section="portfolio" data-value="code"></p>
+                    </a>
+                </div>
+                <div>
+                    <img class="img_portfolio" src="public/img/image.png" alt="">
+                    <div class="row botones">
+                        <a href="https://github.com/juanbcliment/MercadoLiebre">
+                            <p data-section="portfolio" data-value="site"></p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+ -->
 
         <section id="skills">
 
@@ -234,7 +281,7 @@
     <script src="public/js/darkMode.js"></script>
     <script src="public/js/copy.js"></script>
     <!-- falta mejorar iluminar-->
-   <!--  <script src="public/js/iluminar.js"></script> -->
+    <!--  <script src="public/js/iluminar.js"></script> -->
 </body>
 
 </html>

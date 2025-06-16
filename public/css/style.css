@@ -1,4 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@font-face {
+    font-family: 'Roboto Mono';
+    /* El nombre que usarás en tu CSS */
+    src: url('../fonts/Roboto_Mono/static/RobotoMono-Regular.ttf') format('truetype');
+    /* Ruta al archivo */
+    font-weight: 400;
+    /* 400 es el peso para "regular" */
+    font-style: normal;
+}
+
+/* Para el peso negrita (bold) */
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('../fonts/Roboto_Mono/static/RobotoMono-Bold.ttf') format('truetype');
+    font-weight: 700;
+    /* 700 es el peso para "bold" */
+    font-style: normal;
+}
 
 * {
     margin: 0;
@@ -114,6 +131,24 @@ body.active_dark .switch_language.active p:first-child {
     color: #FFFFFF;
 }
 
+body.active_dark #sun-icon {
+    display: none;
+}
+
+body.active_dark #moon-icon {
+    display: block;
+    /* Filtro para que el ícono de la luna sea blanco en modo oscuro */
+    filter: invert(1);
+}
+
+body.active_dark .house {
+    filter: invert(1);
+}
+
+body.active_dark .switch_dark:hover #moon-icon {
+    /* Mismo filtro para el color verde */
+    filter: invert(48%) sepia(94%) saturate(1471%) hue-rotate(85deg) brightness(94%) contrast(102%);
+}
 
 /* ============================     NAVBAR ============================== */
 header {
@@ -178,6 +213,43 @@ main {
 .menu__link:hover {
     color: #009E12;
 
+}
+
+.house {
+    width: 15px;
+    height: 15px;
+    /* Asegúrate de que el color inicial sea negro si el SVG no tiene color definido */
+    filter: invert(0);
+
+}
+
+.menu__link:hover .house {
+    /* Este filtro convierte una imagen negra al color verde #009E12 */
+    filter: invert(48%) sepia(94%) saturate(1471%) hue-rotate(85deg) brightness(94%) contrast(102%);
+}
+
+.switch_dark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.theme-icon {
+    width: 18px;
+    height: 18px;
+}
+
+#moon-icon {
+    display: none;
+}
+
+.switch_dark:hover .theme-icon {
+    /* Este filtro convierte la imagen al color verde #009E12 */
+    filter: invert(48%) sepia(94%) saturate(1471%) hue-rotate(85deg) brightness(94%) contrast(102%);
 }
 
 /*=============================================== CHANGE LANGUAGE =========================================================*/
@@ -257,6 +329,7 @@ main {
 /* ============================== PRESENTACION ================================= */
 
 .title {
+    font-size: 30px;
     margin-top: 80px;
     margin-bottom: 20px;
     text-align: center;
@@ -315,6 +388,7 @@ main {
     margin-bottom: 2px;
     font-weight: 500;
 }
+
 .experience_ind p {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -364,6 +438,16 @@ main {
     max-width: auto;
 }
 
+#skills .about-title {
+    /* Un valor aproximado a la altura de una línea de texto del H2 */
+    min-height: 30px;
+}
+
+/* Reservamos espacio para la lista de competencias */
+#skills .habilidades div:last-child ul {
+    /* Aprox. la altura de 7 líneas de texto (la lista tiene 2 columnas) */
+    min-height: 190px;
+}
 
 /* about  */
 
@@ -554,6 +638,10 @@ main {
         font-size: 25px;
     }
 
+    .title {
+        font-size: 25px;
+    }
+
     h2 {
         font-size: 18px;
     }
@@ -665,6 +753,10 @@ main {
 
 @media (max-width: 480px) {
     h1 {
+        font-size: 20px;
+    }
+
+    .title {
         font-size: 20px;
     }
 
