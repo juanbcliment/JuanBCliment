@@ -35,11 +35,12 @@ const changeLanguage = async (lang) => {
 const getBrowserLanguage = () => {
   const navLang = navigator.language || navigator.userLanguage; 
   const lang = navLang.split('-')[0].toLowerCase(); 
+  return lang;
 };
 
 document.addEventListener("DOMContentLoaded", () => {
   const savedLanguage = localStorage.getItem("selectedLanguage");
-  const defaultLanguage = "en";
+  let defaultLanguage = "en";
 
   if (savedLanguage) {
     changeLanguage(savedLanguage);
@@ -52,6 +53,9 @@ document.addEventListener("DOMContentLoaded", () => {
         defaultLanguage = browserLanguage; 
     }
     changeLanguage(defaultLanguage);
+    if (defaultLanguage === "en") {
+      languageButton.classList.add("active");
+    }
   }
 });
 
